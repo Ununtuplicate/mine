@@ -2,6 +2,20 @@
 
 {% block body_class %}template-homepage{% endblock %}
 
+<body>
 {% block content %}
-    <p>asdasdasd</p>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <h1 class="text-center">1</h1>
+            </div>
+            <div class="col-sm-6">
+                <h2 class="text-center">2</h2>
+            </div>
+        </div>
+    </div>
+{% include "home/classes/computer_graphics/example.html" %}
+    {% include "home/schedule.html" %}
 {% endblock %}
+</body>

@@ -1,26 +1,6 @@
 {% load navigation_tags %}
 
-
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Centrum Serca Lumina Cordis prowadzi diagnostykę i leczenie ambulatoryjne chorób sercowo-naczyniowych, wykorzystując w tym celu aktualne względem wytycznych światowych metody laboratoryjno-obrazowe. Wyróżnia nas holistyczne i zindywidualizowane podejście do każdego pacjenta, uwzględniające jego potrzeby i oczekiwania.">
-    <meta name="author" content="Ewa Sokola Wysoczanska Sokoła-Wysoczańska">
-    <link rel="icon" href="../../../../favicon.ico">
-
-    <title>Centrum Serca LC Klinia Serca Wroclaw</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="/static/bootstrap-4.1.3/site/docs/4.1/examples/navbars/navbar.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-</head>
-
 <body>
-
 <div id="page" class="clearfix">
     <div id="site-header-wrap">
         <!-- top nav -->
@@ -29,25 +9,25 @@
                 <div id="top-nav-inner-wrap">
                     <!-- top nav icon row -->
                     <div class="d-flex flex-column flex-md-row align-items-center justify-content-end p-0 px-md-4 mb-0 bg-light shadow-sm info-header">
-                        <!-- opening time with href to /about/ -->
+                        <!-- top nav icon 1 -->
                         <div class="my-md-0 mr-md-3">
-                            <h6><a class="p-2 text-dark" href="/about/"><i class="pr-1 fa fa-clock-o" aria-hidden="true"></i>pon - pt 8:00 - 20:00</a></h6>
+                            <h6>Something here</h6>
                         </div>
-                        <!-- parking with href to /parking/ -->
+                        <!-- top nav icon 2 -->
                         <div class="my-md-0 mr-md-3">
-                            <h6><a class="p-2 text-dark" href="/parking/"><i class="fas fa-map-marked-alt" aria-hidden="true"></i> jak dojechać</a></h6>
+                            <h6>Something here</h6>
                         </div>
-                        <!-- email icon that opens email -->
+                        <!-- top nav icon 3 -->
                         <div class="my-md-0 mr-md-3 top-nav-mobile-hide">
-                            <h6><a class="p-2 text-dark" href="mailto:recepcja@centrumsercalc.pl"><i class="fa fa-envelope" aria-hidden="true"></i><a class="pr-4" href="mailto:recepcja@centrumsercalc.pl">recepcja@centrumsercalc.pl</a></a></h6>
+                            <h6>Something here</h6>
                         </div>
-                        <!-- phone nr button for first nr -->
+                        <!-- top nav icon 4 -->
                         <div class="my-md-0 mr-md-3">
-                            <h5 class="mb-0"><a class="p-2 px-3 btn btn-outline-primary" href="tel:+48717127898"><i class="pr-1 fa fa-phone" aria-hidden="true"></i>+48 71 712 78 98</h5></a>
+                            <h6>Something here</h6>
                         </div>
-                        <!-- phone nr button for second nr -->
+                        <!-- top nav icon 5 -->
                         <div class="my-md-0 mr-md-3">
-                            <h5 class="mb-0"><a class="p-2 px-3 btn btn-outline-primary" href="tel:+48717127899"><i class="pr-1 fa fa-phone" aria-hidden="true"></i>+48 71 712 78 99</h5></a>
+                            <h6>Something here</h6>
                         </div>
                     </div>
                 </div>
@@ -56,8 +36,11 @@
         <!-- # top nav -->
         <!-- site header -->
         <header id="site-header">
+            <!-- site header inner -->
             <div id="site-header-inner" class="container-fluid">
+                <!-- site header wrap inner -->
                 <div class="site-header-wrap-inner">
+                    <!-- site logo -->
                     <div id="site-logo" class="clearfix">
                         <div id="site-logo-inner">
 
@@ -65,254 +48,162 @@
                     </div>
                     <!-- /# site logo -->
                 </div>
+                <!-- mobile button -->
                 <div class="mobile-button">
                     <span></span>
                 </div>
-                {% block main_navigation %}
                 <!-- /# mobile menu button -->
-                <nav id="main-nav" class="nav nav-tabs navbar-expand-lg navbar-light nav-fill mb-0" data-toggle="affix">
-                    <button class="navbar-toggler m-1" type="button" data-toggle="collapse" data-target="#main-top-nav" aria-controls="main-top-nav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <!-- /# mobile menu button -->
-                    <!-- main top nav defines nav color -->
-                    <div class="collapse navbar-collapse" id="main-top-nav">
-                        <ul id="main-top-nav" class="nav navbar-nav collapse navbar-collapse nav-tabs">
-                            <!-- strona glowna menu item -->
-                            <li class="nav-item active">
-                                <a class="nav-link text-white" style="font-size: 2rem;" href="/">Strona Główna <span class="sr-only">(current)</span></a>
-                            </li>
-                            <!-- /# Strona glowna menu item -->
-                            <!-- o nas menu item -->
-                            <li class="nav-item">
-                                <a class="nav-link text-white" style="font-size: 1.75rem;" href="/about/">O nas </a>
-                            </li>
-                            <!-- /# o nas menu item -->
-                            <!-- uslugi menu item -->
-                            <li class="nav-item">
-                                <div class="downdown dropdown-headerdiv">
-                                    <a class="nav-link dropdown-toggle text-white" style="font-size: 1.75rem;" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Usługi
+                <!-- block main navigation -->
+                {% block main_navigation %}
+                    <nav id="main-nav" class="nav nav-tabs navbar-expand-lg navbar-light nav-fill mb-0 text-center" data-toggle="affix">
+                        <button class="navbar-toggler m-1" type="button" data-toggle="collapse" data-target="#main-top-nav" aria-controls="main-top-nav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <!-- main top nav first item -->
+                        <div class="collapse navbar-collapse" id="main-top-nav">
+                            <a class="nav-link mx-auto" href="/">1 <span class="sr-only">(current)</span></a>
+                        </div>
+                        <!-- /# main top nav first item -->
+                        <!-- main top nav second item with dropdown menu -->
+                        <div class="collapse navbar-collapse" id="main-top-nav">
+                            <!-- main top nav dropdown ul -->
+                            <ul id="main-top-nav" class="nav navbar-nav collapse navbar-collapse nav-tabs">
+                                <!-- main top nav dropdown navitem -->
+                                <li class="nav-item dropdown position-static">
+                                    <!-- main top nav second item -->
+                                    <a class="nav-link dropdown-toggle mx-auto" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        2
                                     </a>
-                                    <ul class="dropdown-menu main-top-nav-dropdown" aria-labelledby="navbarDropdown">
-                                        <li>
-                                            <a class="dropdown-item" href="/services/badania/">
-                                                <span><h6>Badania - zobacz wszystkie</h6></span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/services/konsultacje/">
-                                                <span><h6>Konsultacje - zobacz wszystkie</h6></span>
-                                            </a>
-                                        </li><div class="dropdown-divider"></div>
-                                        <li>
-                                            <a class="dropdown-item" href="/services/pilna-konsultacja-kardiologiczna/">
-                                                <div class="container-fluid">
-                                                    <div class="row">
-                                                        <span class="rwd-line">Pilna konsultacja kardiologiczna&nbsp;</span>
-                                                        <span class="rwd-line">(2x pomiar troponin, konsultacja,&nbsp;</span>
-                                                        <span class="rwd-line">EKG, ECHO, leki)</span>
+                                    <!-- /# main top nav second item -->
+                                    <!-- main top nav second item dropdown div -->
+                                    <div class="dropdown-menu w-100 container" aria-labelledby="navbarDropdown">
+                                        <!-- dropdown div container and row -->
+                                        <div class="container">
+                                            <div class="row">
+                                                <!-- dropdown first col -->
+                                                <div class="col-sm-3">
+                                                    <div class="card">
+                                                        <div class="card-header text-center">
+                                                            <small class="h2">1</small>
+                                                        </div>
+                                                        <img class="img-fluid rounded" data-src="holder.js/100px250"  alt="100%x250" width="140" height="140">
+                                                        <div class="card-body text-center mb-0 pb-0">
+                                                            <p><a class="btn" href="#" role="button">1</a></p>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/services/echo-serca-dorosli/">
-                                                <span>ECHO serca dorośli</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <div>
-                                                <a class="dropdown-item" href="/services/echo-serca-dzieci/">
-                                                    <div class="container-fluid">
-                                                        <div class="row">
-                                                            <span class="rwd-line">ECHO serca dzieci&nbsp;</span>
-                                                            <span class="rwd-line">z konsultacją kardiologa dziecięcego</span>
+                                                <!-- /# dropdown first col -->
+                                                <!-- dropdown second col -->
+                                                <div class="col-sm-3">
+                                                    <div class="card">
+                                                        <div class="card-header text-center">
+                                                            <small class="h2">2</small>
+                                                        </div>
+                                                        <img class="img-fluid rounded" data-src="holder.js/100px250"  alt="100%x250" width="140" height="140">
+                                                        <div class="card-body text-center mb-0 pb-0">
+                                                            <p><a class="btn" href="#" role="button">1</a></p>
                                                         </div>
                                                     </div>
-                                                </a>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/services/echo-serca-przezklatkowe/">
-                                                <span>ECHO serca przezklatkowe</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <div>
-                                                <a class="dropdown-item" href="/services/echo-serca-przezprzelykowe/">
-                                                    <div class="container-fluid">
-                                                        <div class="row">
-                                                            <span class="rwd-line">ECHO serca przezprzełykowe&nbsp;</span>
-                                                            <span class="rwd-line">(możliwe badanie&nbsp;</span>
-                                                            <span class="rwd-line">z asystą annestezjologa)</span>
+                                                </div>
+                                                <!-- /# dropdown second col -->
+                                                <!-- dropdown third col -->
+                                                <div class="col-sm-3">
+                                                    <div class="card">
+                                                        <div class="card-header text-center">
+                                                            <small class="h2">3</small>
+                                                        </div>
+                                                        <img class="img-fluid rounded" data-src="holder.js/100px250"  alt="100%x250" width="140" height="140">
+                                                        <div class="card-body text-center mb-0 pb-0">
+                                                            <p><a class="btn" href="/prices/" role="button">1</a></p>
                                                         </div>
                                                     </div>
-                                                </a>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/services/proba-dobutaminowa/">
-                                                <span>Próba dobutaminowa (ECHO stres)</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/services/echo-serca-plodu/">
-                                                <span>ECHO serca płodu</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <div>
-                                                <a class="dropdown-item" href="/services/kardiowersja-elektryczna/">
-                                                    <div class="container-fluid">
-                                                        <div class="row">
-                                                            <span class="rwd-line">Kardiowersja elektryczna&nbsp;</span>
-                                                            <span class="rwd-line">(kardiolog, anestezjolog)</span>
+                                                </div>
+                                                <!-- /# dropdown third col -->
+                                                <!-- dropdown fourth col -->
+                                                <div class="col-sm-3">
+                                                    <div class="card">
+                                                        <div class="card-header text-center">
+                                                            <small class="h2">4</small>
+                                                        </div>
+                                                        <img class="img-fluid rounded" data-src="holder.js/100px250"  alt="100%x250" width="140" height="140">
+                                                        <div class="card-body text-center mb-0 pb-0">
+                                                            <p><a class="btn" href="#" role="button">1</a></p>
                                                         </div>
                                                     </div>
-                                                </a>
+                                                </div>
+                                                <!-- /# dropdown fourth col -->
                                             </div>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/services/holter-rr/">
-                                                <span>Holter RR</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/services/holter-ekg/">
-                                                <span>Holter EKG</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/services/proba-wysilkowa/">
-                                                <span>Próba wysiłkowa</span>
-                                                <span>(EKG wysiłkowe)</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/services/ergospirometria/">
-                                                <span>Ergospirometria</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/services/polisomnografia/">
-                                                <span>Polisomnografia</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/services/usg-przezciemniaczkowe/">
-                                                <span>USG przezciemiączkowe</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/services/usg-brzucha-malych-dzieci/">
-                                                <span>USG brzucha małych dzieci</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/services/eeg-biofeedback/">
-                                                <span>EEG Biofeedback</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/services/konsultacja-kardiologiczna/">
-                                                <span>Konsultacja kardiologiczna</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/services/konsultacja-psychologa/">
-                                                <span>Konsultacja psychologa</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/services/konsultacja-psychologa-dzieciecego/">
-                                                <span>Konsultacja psychologa dziecięcego</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/services/konsultacja-neurologopedyczna/">
-                                                <span>Konsultacja neurologopedyczna</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/services/konsultacja-lekarza-medycyny-sportu/">
-                                                <span>Konsultacja lekarza medycyny sportu</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/services/konsultacja-lekarsa-dietetyczna/">
-                                                <span>Konsultacja lekarska dietetyczna</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <!-- /# dropdown menu item -->
-                            <li class="nav-item">
-                                <a class="nav-link text-white" style="font-size: 1.75rem;" href="/prices/">Cennik </a>
-                            </li>
-                            <!-- /# cennik menu item -->
-                            <li class="nav-item">
-                                <a class="nav-link text-white" style="font-size: 1.75rem;" href="/people/">Kadra </a>
-                            </li>
-                            <!-- /# kadra menu item -->
-                            <li class="nav-item">
-                                <a class="nav-link text-white" style="font-size: 1.75rem;" href="/parking/">Jak dojechać</a>
-                            </li>
-                            <!-- /# jak dojechac menu item -->
-                            <li class="nav-item">
-                                <a class="nav-link text-white" style="font-size: 1.75rem;" href="/contact/">Kontakt</a>
-                            </li>
-                            <!-- /# kontakt menu item -->
-                        </ul>
-                        <!-- /# main top nav -->
-                    </div>
-                </nav>
-                {% endblock main_navigation %}
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- main top nav third item -->
+                        <div class="collapse navbar-collapse" id="main-top-nav">
+                            <a class="nav-link mx-auto" href="#">3</a>
+                        </div>
+                        <!-- /# main top nav third item -->
+                        <!-- main top nav fourth item -->
+                        <div class="collapse navbar-collapse" id="main-top-nav">
+                            <a class="nav-link mx-auto" href="#">4</a>
+                        </div>
+                        <!-- /# main top nav fourth item -->
+                        <!-- main top nav fifth item -->
+                        <div class="collapse navbar-collapse" id="main-top-nav">
+                            <a class="nav-link mx-auto" href="#">5</a>
+                        </div>
+                        <!-- /# main top nav fifth item -->
+                        <!-- main top nav sixth item -->
+                        <div class="collapse navbar-collapse" id="main-top-nav">
+                             <a class="nav-link mx-auto" href="#">6</a>
+                        </div>
+                        <!-- /# main top nav sixth item -->
+                        <!-- main top nav seventh item -->
+                        <div class="collapse navbar-collapse" id="main-top-nav">
+                            <a class="nav-link mx-auto" href="#">7</a>
+                        </div>
+                        <!-- /# main top nav seventh itemm -->
+                    </nav>
+                {% endblock %}
             </div>
         </header>
     </div>
 </div>
+</body>
 
 <script>
     $(document).ready(function() {
 
-  var toggleAffix = function(affixElement, scrollElement, wrapper) {
+        var toggleAffix = function(affixElement, scrollElement, wrapper) {
 
-    var height = affixElement.outerHeight(),
-        top = wrapper.offset().top;
+            var height = affixElement.outerHeight(),
+                top = wrapper.offset().top;
 
-    if (scrollElement.scrollTop() >= top){
-        wrapper.height(height);
-        affixElement.addClass("affix");
-    }
-    else {
-        affixElement.removeClass("affix");
-        wrapper.height('auto');
-    }
+            if (scrollElement.scrollTop() >= top){
+                wrapper.height(height);
+                affixElement.addClass("affix");
+            }
+            else {
+                affixElement.removeClass("affix");
+                wrapper.height('auto');
+            }
 
-  };
+        };
 
 
-  $('[data-toggle="affix"]').each(function() {
-    var ele = $(this),
-        wrapper = $('<div></div>');
+        $('[data-toggle="affix"]').each(function() {
+            var ele = $(this),
+                wrapper = $('<div></div>');
 
-    ele.before(wrapper);
-    $(window).on('scroll resize', function() {
-        toggleAffix(ele, $(this), wrapper);
+            ele.before(wrapper);
+            $(window).on('scroll resize', function() {
+                toggleAffix(ele, $(this), wrapper);
+            });
+
+            // init
+            toggleAffix(ele, $(window), wrapper);
+        });
     });
-
-    // init
-    toggleAffix(ele, $(window), wrapper);
-  });
-
-});
 </script>
 
-</body>
 </html>
-
-
-
-
