@@ -10,7 +10,7 @@
 
 {% block header %}
     {# Header contains the main_nav block #}
-    {% include "includes/header2.html" with parent=site_root calling_pages=self %}
+    {% include "includes/header.html" with parent=site_root calling_pages=self %}
 {% endblock header %}
 
 {% block head-extra %}
@@ -42,7 +42,7 @@
 <script type="text/javascript" src="{% static 'js/heart.js' %}"></script>
 
 {% block extra_js %}
-    {# Override this in templates to add extra javascript #}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 {% endblock extra_js %}
 
 </body>

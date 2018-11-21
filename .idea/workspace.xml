@@ -11,6 +11,7 @@
       <change beforePath="$PROJECT_DIR$/../heart/heart/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../heart/heart/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../heart/media/images/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/../heart/media/images/Thumbs.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../heart/static/media/images/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/../heart/static/media/images/Thumbs.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mine/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mine/templates/base.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,25 +30,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="3" />
+          <entry key="html" value="4" />
           <entry key="py" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="3" />
+          <entry key="HTML" value="4" />
           <entry key="Python" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="31" />
+          <entry key="html" value="32" />
           <entry key="py" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="31" />
+          <entry key="HTML" value="32" />
           <entry key="Python" value="30" />
         </counts>
       </usages-collector>
@@ -63,6 +64,15 @@
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mine/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -101,7 +111,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mine/templates/home/home_page.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -118,10 +128,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mine/templates/base.html" />
         <option value="$PROJECT_DIR$/mine/settings/base.py" />
         <option value="$PROJECT_DIR$/home/models.py" />
         <option value="$PROJECT_DIR$/mine/templates/home/home_page.html" />
+        <option value="$PROJECT_DIR$/mine/templates/base.html" />
       </list>
     </option>
   </component>
@@ -279,13 +289,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mine/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mine/settings/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-792">
@@ -358,6 +361,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mine/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
         </state>
       </provider>
     </entry>
